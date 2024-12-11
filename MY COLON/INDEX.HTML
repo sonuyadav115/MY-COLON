@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu Yadav 😎</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2C3E50; /* Light black background */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            margin-top: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #ecf0f1;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        header h1 span {
+            display: inline-block;
+            animation: emojiBounce 1.5s infinite;
+        }
+
+        header p {
+            font-size: 1.5rem; /* Increased font size */
+            color: #bdc3c7;
+            font-family: 'Georgia', serif; /* Stylish font */
+            margin-top: 10px;
+        }
+
+        @keyframes emojiBounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .photo {
+            margin: 20px auto;
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+            animation: photoAnimation 2s ease-in-out infinite alternate;
+        }
+
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @keyframes photoAnimation {
+            0% {
+                transform: scale(1);
+                border: 5px solid #3498db;
+            }
+            100% {
+                transform: scale(1.05);
+                border: 5px solid #9b59b6;
+            }
+        }
+
+        .links {
+            margin: 20px 0;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            color: white; /* Text color */
+        }
+
+        .links a:nth-child(1) {
+            background-color: #E1306C; /* Instagram color */
+        }
+
+        .links a:nth-child(2) {
+            background-color: #3b5998; /* Facebook color */
+        }
+
+        .links a:nth-child(3) {
+            background-color: #25D366; /* WhatsApp color */
+        }
+
+        .links a:hover {
+            opacity: 0.8;
+            transform: scale(1.1); /* Slight animation */
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 1.2rem; /* Increased font size */
+            color: #ecf0f1;
+            font-family: 'Tahoma', sans-serif; /* Stylish font for footer */
+        }
+
+        footer p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm Sonu Yadav <span>😎</span></h1>
+        <p>Welcome to my personal space!</p>
+    </header>
+
+    <div class="photo">
+        <img src="https://i.ibb.co/6Rs9FFf/photo.jpg" alt="Sonu Yadav">
+    </div>
+
+    <div class="links">
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/?ref=homescreenpwa" target="_blank">Facebook</a>
+        <a href="https://wa.me/7903551417" target="_blank">WhatsApp</a>
+    </div>
+
+    <footer>
+        <p>Designed with ❤️ by Sonu Yadav</p>
+    </footer>
+</body>
+</html>
